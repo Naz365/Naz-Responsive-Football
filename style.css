@@ -1,0 +1,180 @@
+/* font import */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* import end */
+
+/* header style */
+
+
+.header-section {
+  display: flex;
+  background-color: rgb(76, 0, 164);
+}
+.w-title {
+  width: 485px;
+  height: 230px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 82px;
+  margin-top: 207px;
+  margin-left: 156px;
+  margin-bottom: 240px;
+  margin-right: 120px;
+}
+.h-btn button {
+  border: none;
+  color: #ffffff;
+  background: #e02c6d;
+  width: 168px;
+  height: 44px;
+  margin: 27px auto 169px auto;
+}
+.r-arrow {
+  color: #ffffff;
+  padding-left: 3px;
+}
+.h-img img {
+  width: 556.01px;
+  height: 438px;
+  
+}
+.h-img {
+  margin-top: 153px;
+  margin-bottom: 86px;
+  margin-left: 120px;
+  margin-right: 140.99px;
+}
+
+
+/* header style end */
+
+
+/* player card style */
+.cards-section{
+  display: flex;
+ justify-content: space-around;
+ background-color: #fefefe;
+ margin-top: 70px;
+ 
+
+}
+.player-cards{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-row-gap: 30px;
+   grid-column-gap: 30px;
+  
+}
+.player-card img{
+    width: 300px;
+    height: 256px;
+  
+
+}
+.player-card {
+
+    background-color: #ffffff;
+    width: 330px;
+    height: 474px;
+    padding: 15px;
+    border: 0.5px solid #ffffff;
+    
+}
+
+.card-img{
+  margin-left: 3px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  
+}
+.card-info {
+  text-align: left;
+  color: #a3a3a3;
+}
+/* player card style end*/
+/* yt-section start*/
+
+.yt-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  margin-bottom: 100px;
+  box-shadow: 1px 0px 54px -11px rgba(18,15,15,0.87);
+  
+}
+.yt-container iframe{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.text{
+  text-align: center;
+  padding: 22px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+/* yt-section end*/
+
+/* trophy-sec-start */
+.title-info{
+border: none;
+
+}
+
+.info-table{
+  text-align: center;
+  color: lightgreen;
+  font-size: 1.7rem;
+  align-items: center;
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: 560px;
+  margin-right: 140px;
+  margin-bottom: 35px;
+}
+.main-table{
+  background-color: #fefefe;
+  width: 500px;
+  padding-bottom: 10px;
+}
+
+/* trophy-sec-end */
+
+
+/* footer */
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-img>img{
+  width: 488px;
+  height: 120px;  
+}
+.social-icons{
+  display: flex;
+}
+
+.icon > a{
+  text-decoration: none;
+  margin: 20px 15px 20px 0;
+  color: #969BAB;
+  font-size: 25px;
+}
+.copyright>p{
+font-size: 18px;
+font-weight:200;
+text-align: center;
+margin-bottom: 65px;
+}
+/* footer end */
